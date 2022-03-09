@@ -1,0 +1,8 @@
+.segment {
+  border-radius: 50%;
+}
+
+.segment:hover {
+  color: white;
+  animation: backcolor 10s infinite;
+}

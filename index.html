@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta charset="utf-8" />
+    <title>CatchLab</title>
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      const variants = ["circles", "icons"];
+      const variant = variants[Math.floor(Math.random() * variants.length)];
 
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: "Quicksand", sans-serif;
-      }
-      .hero {
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-      }
-      .hero h1 {
-        animation: mymove 5s infinite;
-        font-size: 160px;
-        font-weight: 400;
-      }
-      @keyframes mymove {
-        0% {
-          color: crimson;
-        }
-        20% {
-          color: orange;
-        }
-        40% {
-          color: goldenrod;
-        }
-        60% {
-          color: green;
-        }
-        80% {
-          color: DarkBlue;
-        }
-        100% {
-          color: purple;
-        }
-      }
-    </style>
+      const head = document.querySelector("head");
+      const link = document.createElement("link");
+      link.setAttribute("rel", "stylesheet");
+      link.setAttribute("type", "text/css");
+      link.setAttribute("href", `./styles/${variant}.css`);
+      head.appendChild(link);
+    </script>
   </head>
   <body>
-    <div class="hero">
-      <h1 class="hero">CatchLab</h1>
-    </div>
+    <header>
+      <div class="title">
+        <h1 class="title">CatchLab</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="segment">
+          <h2>Projects</h2>
+          <p>launching soon</p>
+          <svg
+            class="variant variant-icons icon icon-heart"
+            viewBox="0 0 32 29.6"
+          >
+            <path
+              d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+            c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+            />
+          </svg>
+        </div>
+        <div class="segment">
+          <h2>Consultancy</h2>
+          <p>hello@catchlab.se</p>
+          <svg
+            class="variant variant-icons icon icon-bubble"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M42 8H22a20 20 0 0 0 0 40h2v10l12-10h6a20 20 0 1 0 0-40z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>built with ♡ 2022</p>
+    </footer>
   </body>
 </html>

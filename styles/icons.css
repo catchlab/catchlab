@@ -1,0 +1,24 @@
+.segment {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 0px;
+  fill: transparent;
+  stroke: black;
+  overflow: visible;
+  visibility: hidden;
+}
+
+.icon-bubble {
+  stroke-width: 2px;
+}
+
+.segment:hover .icon {
+  visibility: visible;
+}
+
+.variant.variant-icons {
+  display: block;
+}

@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  animation: fontcolor 10s infinite;
+  font-size: 80px;
+  font-weight: 200;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.segment h2 {
+  margin-top: 2em;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.segment p {
+  color: transparent;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.segment:hover p {
+  color: inherit;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  animation: fontcolor 10s infinite;
+  margin-top: auto;
+}
+
+@keyframes fontcolor {
+  0% {
+    color: #f9abe7;
+  }
+  12% {
+    color: #e1a9f6;
+  }
+  24% {
+    color: #d1bbf9;
+  }
+  36% {
+    color: #c6c7ff;
+  }
+  48% {
+    color: #b5e5ff;
+  }
+  60% {
+    color: #c6c7ff;
+  }
+  72% {
+    color: #d1bbf9;
+  }
+  84% {
+    color: #e1a9f6;
+  }
+  100% {
+    color: #f9abe7;
+  }
+}
+
+@keyframes backcolor {
+  0% {
+    background-color: #f9abe7;
+  }
+  12% {
+    background-color: #e1a9f6;
+  }
+  24% {
+    background-color: #d1bbf9;
+  }
+  36% {
+    background-color: #c6c7ff;
+  }
+  48% {
+    background-color: #b5e5ff;
+  }
+  60% {
+    background-color: #c6c7ff;
+  }
+  72% {
+    background-color: #d1bbf9;
+  }
+  84% {
+    background-color: #e1a9f6;
+  }
+  100% {
+    background-color: #f9abe7;
+  }
+}
+
+.variant {
+  display: none;
+}
+
+.segment {
+  text-align: center;
+  margin: 100px;
+  width: 250px;
+  height: 250px;
+  font-size: 20px;
+  animation: fontcolor 10s infinite;
+}
