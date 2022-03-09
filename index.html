@@ -19,6 +19,9 @@
       link.setAttribute("type", "text/css");
       link.setAttribute("href", `./styles/${variant}.css`);
       head.appendChild(link);
+
+      // dark magic here - somehow enables hover on mobile tap
+      document.addEventListener("touchstart", function () {}, true);
     </script>
   </head>
   <body>
