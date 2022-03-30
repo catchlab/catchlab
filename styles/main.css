@@ -13,7 +13,6 @@ body {
 }
 
 .title h1 {
-  animation: fontcolor 10s infinite;
   font-size: 80px;
   font-weight: 200;
 }
@@ -45,7 +44,6 @@ body {
 footer {
   text-align: center;
   padding: 10px;
-  animation: fontcolor 10s infinite;
   margin-top: auto;
 }
 
@@ -119,7 +117,6 @@ footer {
   width: 250px;
   height: 250px;
   font-size: 20px;
-  animation: fontcolor 10s infinite;
 }
 
 @media only screen and (max-width: 900px) {

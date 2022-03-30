@@ -1,5 +1,10 @@
+.title {
+  animation: fontcolor 10s infinite;
+}
+
 .segment {
   position: relative;
+  animation: fontcolor 10s infinite;
 }
 
 .icon {
@@ -21,4 +26,8 @@
 
 .variant.variant-icons {
   display: block;
+}
+
+footer {
+  animation: fontcolor 10s infinite;
 }

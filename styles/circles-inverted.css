@@ -1,0 +1,21 @@
+body {
+  animation: backcolor 10s infinite;
+}
+
+.title h1 {
+  color: white;
+}
+
+.segment {
+  border-radius: 50%;
+  color: white;
+}
+
+.segment:hover {
+  background-color: white;
+  animation: fontcolor 10s infinite;
+}
+
+footer {
+  color: white;
+}

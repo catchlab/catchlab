@@ -1,8 +1,17 @@
+.title {
+  animation: fontcolor 10s infinite;
+}
+
 .segment {
   border-radius: 50%;
+  animation: fontcolor 10s infinite;
 }
 
 .segment:hover {
   color: white;
   animation: backcolor 10s infinite;
+}
+
+footer {
+  animation: fontcolor 10s infinite;
 }
