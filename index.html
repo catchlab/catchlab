@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <script>
-      const variants = ["circles", "icons", "circles-inverted"];
+      const variants = ["circles", "icons", "circles-inverted", "polka"];
       const variant = variants[Math.floor(Math.random() * variants.length)];
 
       const head = document.querySelector("head");
@@ -25,7 +25,7 @@
       document.addEventListener("touchstart", function () {}, true);
     </script>
   </head>
-  <body>
+  <body class="polka pattern">
     <header>
       <div class="title">
         <h1 class="title">CatchLab</h1>
@@ -62,7 +62,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <p>built with ♡ 2022</p>
     </footer>
   </body>

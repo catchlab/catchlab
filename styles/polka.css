@@ -1,0 +1,30 @@
+.pattern {
+  width: auto;
+  height: 240px;
+  margin: 20px;
+  flex: 0 0 auto;
+}
+
+.polka {
+  background: radial-gradient(#c6c7ff 2px, transparent 3px),
+    radial-gradient(#c6c7ff 2px, transparent 3px), #fff;
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
+}
+
+.title {
+  background-color: white;
+}
+
+.segment {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.segment:hover {
+  color: black;
+}
+
+footer p {
+  background-color: white;
+}
