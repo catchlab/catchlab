@@ -16,6 +16,10 @@ body {
   animation: fontcolor 10s infinite;
 }
 
+.privacy {
+  color: white;
+}
+
 footer {
   color: white;
 }

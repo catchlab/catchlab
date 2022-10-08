@@ -28,6 +28,10 @@
   display: block;
 }
 
+.privacy h1 {
+  animation: fontcolor 10s infinite;
+}
+
 footer {
   animation: fontcolor 10s infinite;
 }

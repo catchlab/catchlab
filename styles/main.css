@@ -119,6 +119,37 @@ footer {
   font-size: 20px;
 }
 
+.privacy {
+  text-align: center;
+  margin: 35px 100px;
+}
+
+.privacy h1 {
+  font-weight: normal;
+}
+
+.privacy p {
+  font-weight: 200;
+  ;
+}
+
+.privacy ul {
+  list-style-type: circle;
+  text-align: left;
+  margin: 10px 80px;
+  font-weight: lighter;
+  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 900px) {
   .container {
     flex-direction: column;
